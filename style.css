@@ -1,0 +1,28 @@
+#barraBusqueda{
+    
+    
+    display: inline-block;
+    size: 300px;
+
+}
+
+.headd input{
+    display: inline;
+    width: 300px;
+    height: 25px;
+            
+}
+
+
+
+
+/* DISEÑO FOOTER */
+
+footer{
+    background-color: rgb(176, 211, 240);
+    
+}
+
+footer h1{
+    color: azure;
+}
