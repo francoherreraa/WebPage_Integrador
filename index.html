@@ -1,60 +1,95 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
-    <style>
-        
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Pagina web</title>
+  </head>
 
-        img{
-            margin-top: 20px;
-            margin-left: 20px;
-            margin-right: 20px;
-            margin-bottom: 20px;
-        }
-        header{
-            size: 20cm;
-            background-color: rgb(157, 114, 197);
-        }
-    </style>
-</head>
+  <!-- HEADER ENCABEZADO-->
 
-<!-- HEADER ENCABEZADO-->
+  <header>
+    <section class="cabeceraAlta">
+      <img src="images/cabeceraAlta.svg" alt="imagen cabeceraAlta" />
 
-<header class="headd">
-    <img src="images/placeholder.jpg" alt="palceholder" width="300px" height="100px">
-    
-    <input  type="text" id="barraBusqueda" placeholder="Buscar..." >
+      <p>Envios a Todo el país!</p>
+    </section>
+    <section class="cabecera">
+      <a href="./PaginaPrincipal.html"><img
+        class="logo"
+        src="./images/Logo maximus 2.0.svg"
+        alt="palceholder"
+        width="300px"
+        height="100px"
+      /></a>
 
-    
-</header>
+      <div class="Busqueda">
+        <div class="fondoBusqueda">
+          <input
+            class="barraBusqueda"
+            type="text"
+            id="barraBusqueda"
+            placeholder="Buscar..."
+          />
+          <div class="fondoLupa">
+            <a href=""
+              ><img
+                class="lupa"
+                src="images/barraBusqueda.svg"
+                alt="imagen de lupa"
+            /></a>
+          </div>
+        </div>
+      </div>
+      <div class="fondoPerfil">
+        <a href="./inicioSesion-Registro/inicioSesion.html"
+          ><img class="imgPerfil" src="images/user.svg" alt="imagen perfil"
+        /></a>
+        <p class="textoPerfil"><a href="./inicioSesion-Registro/inicioSesion.html">Ingresar</a></p>
+      </div>
+    </section>
+    <section class="subCabecera">
+      <nav>
+        <ul>
+          <li><a href="SeccionesHtml/Computadoras.html">Computadoras</a></li>
+          <li><a href="SeccionesHtml/PlacasDeVideo.html">Placas de video</a></li>
+          <li><a href="SeccionesHtml/Microprocesadores.html">Microprocesadores</a></li>
+          <li><a href="SeccionesHtml/Gabinetes.html">Gabinetes</a></li>
+        </ul>
+      </nav>
+    </section>
+  </header>
 
-<body>
-    <h2>Github prueba</h2>
-    <P>SOMOS EL MEJOR GRUPO XD</P>    
+  <div class="secciones">
+    <section class="promo">
+      <label for="">PRODUCTOS CARRUSEL</label>
+    </section>
 
-<!-- FOOTER (REDES, INFO, ETC.)-->
+    <section class="destacados">
+      <label for=""> DESTACADOS</label>
+    </section>
 
-<footer>
-    <div class="redes">
-        <h1>Seguinos en</h1>
-        <h1>Seguinos en</h1>
-        
-        <img src="images/placeholder.jpg" alt="" width="60px">
-        <img src="images/placeholder.jpg" alt="" width="60px">
-        <img src="images/placeholder.jpg" alt="" width="60px">
-    </div>
+    <section class="patrocinio">
+      <label for="">PATROCINIO</label>
+    </section>
+  </div>
 
-    <div class="contacto">
-        <h1>Contactanos por</h1>
-            
-        <img src="images/placeholder.jpg" alt="" width="60px">
+  <body>
+    <!-- FOOTER (REDES, INFO, ETC.)-->
 
-    </div>
+    <footer>
+      <div class="redes">
+        <h2>Seguinos en</h2>
 
-</footer>
+        <img id="imgIconos" src="images/placeholder.jpg" alt="" width="60px" />
+        <img id="imgIconos" src="images/placeholder.jpg" alt="" width="60px" />
+        <img id="imgIconos" src="images/placeholder.jpg" alt="" width="60px" />
 
-</body>
+        <h2>Contactanos por</h2>
+
+        <img id="imgIconos" src="images/placeholder.jpg" alt="" width="60px" />
+      </div>
+    </footer>
+  </body>
 </html>
